@@ -6,11 +6,18 @@
 
 .container {
     max-width: 1380px;
-    margin: 20px auto;
+    margin:auto;
     display: flex;
     justify-content: space-between;
     align-items: center;
     /* background-color: #F8F9FB; */
+}
+img{
+    max-width:100%;
+    display:block;
+}
+nav{
+    padding:20px 0;
 }
 
 .logo {
@@ -48,6 +55,7 @@ ul a:hover {
     border-radius: 10px;
     cursor: pointer;
     transition: 1s;
+    font-family: "Inter", sans-serif;
 }
 
 .hero-but button {
@@ -55,6 +63,7 @@ ul a:hover {
     font-size: 20px;
     font-family: "Inter", sans-serif;
     margin-top: 120px;
+    
 }
 
 .head-but button:hover {
@@ -66,7 +75,7 @@ ul a:hover {
 }
 
 .hero {
-    height: 90vh;
+    min-height: 90vh;
     display: flex;
     justify-content: center;
     flex-direction: column;
@@ -128,15 +137,9 @@ ul a:hover {
     display: block;
     border-radius: 15px;
 }
-
-.one span {
-    margin-top: 15px;
-    margin-top: 10px;
-}
-
 .one p,
-h4,
-h5 {
+.one h4,
+.one h5 {
     margin-top: 10px;
     font-family: "Inter", sans-serif;
 }
@@ -327,6 +330,7 @@ h5 {
     justify-content: space-between;
     align-items: center;
     background: none;
+    border: none;
     color: #100f0f;
     font-size: 18px;
     cursor: pointer;
@@ -376,6 +380,9 @@ footer {
     color: #fff;
     text-decoration: none;
     font-size: 17px;
+}
+.footer-icon a:hover{
+    color:#2563eb;
 }
 
 .divider {
