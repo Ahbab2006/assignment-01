@@ -104,3 +104,69 @@ ul a:hover {
 
     font-family: "Inter", sans-serif;
 }
+
+
+
+
+
+
+
+.about{
+    margin: 60px auto;
+}
+
+.speakers {
+    display: grid;
+    grid-template-columns: repeat(2, 1fr);
+    gap: 20px;
+    align-items: center;
+    max-width: 1200px;
+    /* margin: 40px auto; */
+
+}
+
+.about-text {
+    text-align: center;
+    margin-bottom: 40px;
+    margin-top: 40px;
+    font-size: 25px;
+    font-family: "Inter", sans-serif;
+
+}
+
+.one {
+    padding: 20px;
+    border: 2px solid #ddd;
+}
+
+.one img {
+    width: 100%;
+    display: block;
+    border-radius: 15px;
+}
+
+.one span {
+    margin-top: 15px;
+    margin-top: 10px;
+
+}
+
+.one p,
+h4,
+h5 {
+    margin-top: 10px;
+    font-family: "Inter", sans-serif;
+}
+
+.one p {
+    font-size: 14px;
+    color: blue;
+}
+
+.one h4 {
+    font-size: 20px;
+}
+
+.one h5 {
+    color: rgb(188, 147, 93);
+}
